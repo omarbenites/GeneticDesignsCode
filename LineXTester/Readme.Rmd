@@ -1,0 +1,36 @@
+---
+title: "lineXtester"
+author: "CIP-O.Benites-P.Carhuapoma"
+date: "Tuesday, January 13, 2015"
+---
+
+# Line by Tester genetic design
+Code for genetic designs LineByTester
+
+### Description
+
+Function to compute the Lline by Tester genetic design
+
+### Usage
+
+```{r eval=F}
+lineXtesterM(replications,lines,testers,y,name.y)
+```
+### Arguments
+
+```
+replication : column of replication values
+lines       : column of 
+testers     : column of the female values
+y           : response variable
+name.y      : response variable name
+
+```
+
+### Example
+
+```{r eval=F}
+# Run the function.
+lineXtesterM(replications,lines,testers,TTWP,"TTWP")
+```
+
