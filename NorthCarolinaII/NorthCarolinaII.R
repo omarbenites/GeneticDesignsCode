@@ -5,7 +5,7 @@ carolinaII <-  function (set,male,female,replication,y,name.y)
   cat("Response(y): ", name.y, "\n\n")
   print(anova(model))
   cat("\nCV:", cv.model(model), "\tMean:", mean(y), "\n")
-  
+   
   #m <- length(levels(model$model$male))
   m0=aggregate(model$model[,1],list(A=model$model[,2],B=model$model[,4]),length)
   m=unique((aggregate(m0[,2],list(C=m0[,1]),length))[,2])
