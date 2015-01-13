@@ -23,7 +23,7 @@ name.y     : response variable name
 
 ### Details
 
-The North Carolina Genetic Design (bibliography) is a weight free index.
+The North Carolina Genetic Design II (bibliography) is a weight free index.
 
 ### Value
 Measure the heredability of the progenie
