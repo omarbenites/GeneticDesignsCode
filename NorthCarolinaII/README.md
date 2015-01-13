@@ -13,11 +13,11 @@ carolinaII(set,male,female,replication,y,name.y)
 ### Arguments
 
 ```
-set        : column with the set values
-male       :
-female     : column with the female values
-replication: column with replication values 
-y          : response variable
+set        : column of set values
+male       : column of the male values
+female     : column of the female values
+replication: column of replication values 
+y          : column of response variable
 name.y     : response variable name
 ```
 
@@ -39,5 +39,6 @@ var.D  :
 
 ```{r eval=F}
 # Run the function.
+#yield :response variable
 carolinaII(set,male,female,replication,yield,"yield")
 ```
