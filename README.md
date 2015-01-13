@@ -3,7 +3,7 @@ Code for genetic designs LineByTester, North Carolina I and North Carolina II
 
 ### Description
 
-Function to compute the Elston index.
+Function to compute the North Carolina II Design.
 
 ### Usage
 
